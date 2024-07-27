@@ -1,0 +1,18 @@
+
+:root{
+  --orange--:orange;
+  --white--:white;
+  --green--:#25D366;
+  --blue--:#1877F2;
+  --bluefade--:#0A66C2;
+  --cyan--:#4A90E2;
+  --black--:#181717;
+  --white--:#fff;
+}
+
+.footer {
+    color: var(--white--);
+    text-align: center;
+    padding: 1rem;
+  }
+  

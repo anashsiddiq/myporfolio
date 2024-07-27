@@ -1,0 +1,129 @@
+
+:root{
+  --orange--:orange;
+  --white--:white;
+  --green--:#25D366;
+  --blue--:#1877F2;
+  --bluefade--:#0A66C2;
+  --cyan--:#4A90E2;
+  --black--:#181717;
+}
+
+.contact {
+    padding: 2rem;
+  }
+  
+  .contact h2 {
+    font-size: 2rem;
+  }
+  
+  .contact ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+  }
+  
+  .contact a {
+    font-size: 1rem;
+    text-decoration: none;
+  }
+  
+  
+  .contact .icon {
+    margin: 0 15px;
+    color: var(--white--);
+    transition: transform 0.3s;
+  }
+  
+  .contact .icon:hover {
+    transform: scale(1.1);
+    
+  }
+
+  .icon {
+    background-color:var(--white--);
+    border-radius: 50%; 
+    padding: 10px; 
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+    transition: transform 0.3s;
+  }
+  
+.width-less{
+  margin-top: 50px;
+}
+  
+  .icon:hover {
+    transform: scale(1.1);
+  }
+
+  #facebook-icon{
+    color: var(--blue--)!important;
+  }
+
+  #facebook-icon:hover{
+    box-shadow: 1px 1px 12px 5px var(--blue--);
+  }
+
+  #github-icon{
+    color: var(--black--) !important;
+  }
+
+  #github-icon:hover{
+    box-shadow: 1px 1px 12px 5px var(--black--);
+  }
+
+  #linkedin-icon{
+    color: var(--bluefade--) !important;
+
+  }
+
+  #linkedin-icon:hover{
+    box-shadow: 1px 1px 12px 5px var(--bluefade--);
+  }
+
+  #naukri-icon{
+    color:var(--cyan--)  !important;
+  }
+
+  #naukri-icon:hover{
+    box-shadow: 1px 1px 12px 5px var(--cyan--);
+  }
+
+  #whatsapp-icon{
+    color: var(--green--) !important;
+  }
+
+  #whatsapp-icon:hover{
+    box-shadow: 1px 1px 12px 5px var(--green--)
+  }
+
+  @media only screen and (max-width:767px) {
+    .width-less{
+      display: flex;
+      flex-direction: column;
+       gap: 22px;
+       margin-top: 52px;
+    }
+    #contact{
+      margin-top: -6px;
+    }
+
+    .width-less a{
+      width: 72px;
+      display: block;
+      margin-left: auto !important;
+      margin-right: auto !important;
+    
+    }
+  }
+  
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+
+    #contact{
+      margin-top: -6px;
+    }
+  }
